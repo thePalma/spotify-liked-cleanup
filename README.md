@@ -11,19 +11,19 @@ To use this tool, you will need a Spotify for Developers account, which you can 
 
 This is a simple Python script that relies on [Spotipy](https://spotipy.readthedocs.io/en)
 
-```bash
+```
 $ git clone ...
 ```
 
 Install required modules:
 
-```bash
-pip install -r requirements.txt
+```
+$ pip install -r requirements.txt
 ```
 
 Reference the Spotify API credentials here:
 
-```bash
+```
 $ export SPOTIFY_CLIENT_ID=<<your spotify client id>>
 $ export SPOTIFY_CLIENT_SECRET=<<your spotify secret>>
 $ export SPOTIFY_USERNAME=<<your spotify username>>
@@ -31,7 +31,7 @@ $ export SPOTIFY_USERNAME=<<your spotify username>>
 
 Change the OFFSET variable to set which song to start deletion from:
 
-```python
+```
 OFFSET = <<set offset here>>
 ```
 

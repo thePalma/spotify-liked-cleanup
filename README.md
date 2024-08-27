@@ -24,8 +24,9 @@ $ pip install -r requirements.txt
 Reference the Spotify API credentials here:
 
 ```
-$ export SPOTIFY_CLIENT_ID=<<your spotify client id>>
-$ export SPOTIFY_CLIENT_SECRET=<<your spotify secret>>
+$ export SPOTIPY_CLIENT_ID=<<your spotify client id>>
+$ export SPOTIPY_CLIENT_SECRET=<<your spotify secret>>
+$ export SPOTIPY_REDIRECT_URI=<<your spotify redirect uri>>
 $ export SPOTIFY_USERNAME=<<your spotify username>>
 ```
 

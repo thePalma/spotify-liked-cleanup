@@ -39,5 +39,5 @@ OFFSET = <<set offset here>>
 Running the tool:
 
 ```bash
-python3 spotify-liked-cleanup.py
+$ python3 spotify-liked-cleanup.py
 ```

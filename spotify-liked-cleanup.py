@@ -10,9 +10,6 @@ client_secret = os.getenv('SPOTIPY_CLIENT_SECRET')
 redirect_uri = os.getenv('SPOTIPY_REDIRECT_URI')
 username = os.getenv('SPOTIFY_USERNAME')
 
-print(f'Client ID: {client_id}')
-print(f'Client Secret: {client_secret}')
-
 scope = 'user-library-read user-library-modify playlist-modify-public playlist-modify-private'
 
 token = spotipy.util.prompt_for_user_token(username, scope, client_id, client_secret, redirect_uri)
